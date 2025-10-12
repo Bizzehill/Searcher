@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { AuthProvider } from '@/context/AuthContext'
 
 export const metadata: Metadata = {
-  title: 'Good List',
+  title: "Santa's Helper",
   description: 'A joyful, family-friendly goodness-based Christmas list.',
 }
 
@@ -15,7 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <AuthProvider>
           <header className="site-header">
             <div className="container">
-              <h1 className="brand">🎄 Good List</h1>
+              <h1 className="brand">🎄 Santa's Helper</h1>
               <nav>
                 <Link href="/">Home</Link>
                 <Link href="/santa">Santa View</Link>
